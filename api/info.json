@@ -1,0 +1,181 @@
+{
+  "cards": [
+    {
+      "_id": 1,
+      "name": "Sales",
+      "icon": "bi bi-cart",
+      "amount": 145,
+      "percentage": 0.12,
+      "active": true
+    },
+    {
+      "_id": 2,
+      "name": "Revenue",
+      "icon": "bi bi-currency-dollar",
+      "amount": 3246,
+      "percentage": 0.08,
+      "active": false
+    },
+    {
+      "_id": 2,
+      "name": "Customer",
+      "icon": "bi bi-people",
+      "amount": 1244,
+      "percentage": -0.11,
+      "active": false
+    }
+  ],
+  "news": [
+    {
+      "_id": 1,
+      "img": "../",
+      "title": "nihil blanditiis at in nihil autem",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
+      "category": "abc"
+    },
+    {
+      "_id": 2,
+      "img": "../",
+      "title": "Quedim autem et imperdit",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
+      "category": "abc"
+    },
+    {
+      "_id": 3,
+      "img": "../",
+      "title": "Id quia et at ut maxime similique occaecati ut",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
+      "category": "abc"
+    },
+    {
+      "_id": 4,
+      "img": "../",
+      "title": "Laborum corporis quo dara net para",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
+      "category": "abc"
+    },
+    {
+      "_id": 5,
+      "img": "../",
+      "title": "Et dolores corruptiqu que illo quod dolor",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
+      "category": "abc"
+    }
+  ],
+  "topselling": [
+    {
+      "_id": 1,
+      "preview": "../",
+      "name": "Ut inventore ipsa voluptas nulla",
+      "price": 64,
+      "sold": 124
+    },
+    {
+      "_id": 2,
+      "preview": "../",
+      "name": "Consequuntur ea vitae autem",
+      "price": 19,
+      "sold": 87
+    },
+    {
+      "_id": 3,
+      "preview": "../",
+      "name": "Explicit consectetur adip occaecetur",
+      "price": 29,
+      "sold": 97
+    },
+    {
+      "_id": 4,
+      "preview": "../",
+      "name": "Site quantities keine bearbeiten",
+      "price": 69,
+      "sold": 34
+    },
+    {
+      "_id": 5,
+      "preview": "../",
+      "name": "German sealed warranties qwert",
+      "price": 59,
+      "sold": 47
+    }
+  ],
+  "recentsales": [
+    {
+      "_id": 1,
+      "number": "#2457",
+      "customer": "Quo quia quod et asquisa",
+      "product": "Atrial von die",
+      "price": 64,
+      "status": "Approved"
+    },
+    {
+      "_id": 2,
+      "number": "#2457",
+      "customer": "Beschreib der",
+      "product": "Equal quantities",
+      "price": 56,
+      "status": "Pending"
+    },
+    {
+      "_id": 3,
+      "number": "#2457",
+      "customer": "Deqder dsaert",
+      "product": "Equal quantities",
+      "price": 32,
+      "status": "Approved"
+    },
+    {
+      "_id": 4,
+      "number": "#2457",
+      "customer": "Pewer dsaert",
+      "product": "Equal quantities",
+      "price": 42,
+      "status": "Pending"
+    },
+    {
+      "_id": 5,
+      "number": "#2457",
+      "customer": "Xdwaert dsaert",
+      "product": "Equal quantities",
+      "price": 39,
+      "status": "Approved"
+    }
+  ],
+  "recentactiviy": [
+    {
+      "_id": "1",
+      "time": "32 min",
+      "color": "text-success",
+      "content": "fsblog quantities available",
+      "highlight": "Explicit highlightdate"
+    },
+    {
+      "_id": "2",
+      "time": "56 min",
+      "color": "text-danger",
+      "content": "Temporary dfw quantity",
+      "highlight": "occa quantity description"
+    },
+    {
+      "_id": "3",
+      "time": "2 hrs",
+      "color": "text-primary",
+      "content": "mkl quantity description",
+      "highlight": ""
+    },
+    {
+      "_id": "4",
+      "time": "1 hrs",
+      "color": "text-info",
+      "content": "popld daewxt weight",
+      "highlight": ""
+    },
+    {
+      "_id": "5",
+      "time": "2 days",
+      "color": "text-warning",
+      "content": "qewqmark wehift",
+      "highlight": ""
+    }
+  ]
+}
