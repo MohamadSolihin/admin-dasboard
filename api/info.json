@@ -28,35 +28,35 @@
   "news": [
     {
       "_id": 1,
-      "img": "../",
+      "img": "",
       "title": "nihil blanditiis at in nihil autem",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
     },
     {
       "_id": 2,
-      "img": "../",
+      "img": "",
       "title": "Quedim autem et imperdit",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
     },
     {
       "_id": 3,
-      "img": "../",
+      "img": "",
       "title": "Id quia et at ut maxime similique occaecati ut",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
     },
     {
       "_id": 4,
-      "img": "../",
+      "img": "",
       "title": "Laborum corporis quo dara net para",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
     },
     {
       "_id": 5,
-      "img": "../",
+      "img": "",
       "title": "Et dolores corruptiqu que illo quod dolor",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
@@ -65,35 +65,35 @@
   "topselling": [
     {
       "_id": 1,
-      "preview": "../",
+      "preview": "/assets/items/product-1.jpg",
       "name": "Ut inventore ipsa voluptas nulla",
       "price": 64,
       "sold": 124
     },
     {
       "_id": 2,
-      "preview": "../",
+      "preview": "/assets/items/product-2.jpg",
       "name": "Consequuntur ea vitae autem",
       "price": 19,
       "sold": 87
     },
     {
       "_id": 3,
-      "preview": "../",
+      "preview": "/assets/items/product-3.jpg",
       "name": "Explicit consectetur adip occaecetur",
       "price": 29,
       "sold": 97
     },
     {
       "_id": 4,
-      "preview": "../",
+      "preview": "/assets/items/product-4.jpg",
       "name": "Site quantities keine bearbeiten",
       "price": 69,
       "sold": 34
     },
     {
       "_id": 5,
-      "preview": "../",
+      "preview": "/assets/items/product-5.jpg",
       "name": "German sealed warranties qwert",
       "price": 59,
       "sold": 47
@@ -130,7 +130,7 @@
       "customer": "Pewer dsaert",
       "product": "Equal quantities",
       "price": 42,
-      "status": "Pending"
+      "status": "Rejected"
     },
     {
       "_id": 5,

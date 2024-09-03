@@ -1,0 +1,15 @@
+/* # Recent Sales */
+.dashboard .recent-sales {
+  font-size: 14px;
+}
+
+.dashboard .recent-sales .table thead {
+  background-color: #f6f6fe !important;
+}
+.dashboard .recent-sales .dataTable-top {
+  padding: 0px 0px 10px 0px !important;
+}
+
+.dashboard .recent-sales .dataTable-bottom {
+  padding: 10px 0px 0px 0px !important;
+}

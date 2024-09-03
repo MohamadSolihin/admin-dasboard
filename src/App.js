@@ -11,6 +11,8 @@ import Header from "./components/header/Header";
 import SideBar from "./components/sideBar/SideBar";
 import Main from "./components/main/Main";
 
+import "echarts";
+
 function App() {
   return (
     <>

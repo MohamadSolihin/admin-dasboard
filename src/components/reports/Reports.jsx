@@ -11,7 +11,7 @@ function Reports() {
     <div className="card">
       <CardFilter filterChange={handleFillterChange} />
       <div className="card-body">
-        <h5 className="card-titel">
+        <h5 className="card-title">
           Reports <span>/{filter}</span>
         </h5>
         <ReportsCharts />

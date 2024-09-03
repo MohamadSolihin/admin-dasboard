@@ -1,6 +1,7 @@
 import React from "react";
-import './cardFilter.css'
-function CardFilter({filterChange}) {
+import "./cardFilter.css";
+
+function CardFilter({ filterChange }) {
   return (
     <div className="filter">
       <a href="/" className="icon" data-bs-toggle="dropdown">
@@ -11,28 +12,25 @@ function CardFilter({filterChange}) {
           <h6>Filter</h6>
         </li>
         <li>
-          <a
-            href="/"
+          <button
             className="dropdown-item"
             onClick={() => filterChange("Today")}>
             Today
-          </a>
+          </button>
         </li>
         <li>
-          <a
-            href="/"
+          <button
             className="dropdown-item"
             onClick={() => filterChange("This Month")}>
             This Month
-          </a>
+          </button>
         </li>
         <li>
-          <a
-            href="/"
+          <button
             className="dropdown-item"
             onClick={() => filterChange("This Year")}>
             This Year
-          </a>
+          </button>
         </li>
       </ul>
     </div>

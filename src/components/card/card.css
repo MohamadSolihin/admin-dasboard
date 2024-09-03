@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+.row {
+  margin-right: 0 !important;
+}
+
 .dashboard .card-icon {
   font-size: 32px;
   line-height: 0;

@@ -1,15 +1,20 @@
 import React, { useState } from "react";
-import './card.css'
+import "./card.css";
 import CardFilter from "../cardfilter/CardFilter";
+
 function Card({ card }) {
   const [filter, setFilter] = useState("Today");
+
   const handleFilterChange = filter => {
+    console.log("Filter selected:", filter);
     setFilter(filter);
   };
 
+  console.log("Rendering Card with filter:", filter);
+
   return (
     <div className="row">
-      <div>
+      <div className="col">
         <div className="card info-card sales-card">
           <CardFilter filterChange={handleFilterChange} />
           <div className="card-body">
@@ -24,17 +29,14 @@ function Card({ card }) {
               <div className="ps-3">
                 <h6>
                   {card.name === "Revenue"
-                    ? "$" + card.amount.toLocaleString("en-US")
-                    : card.amount.toLocaleString("en-US")}
+                    ? `$${card.amount?.toLocaleString("en-US")}`
+                    : card.amount?.toLocaleString("en-US")}
                 </h6>
                 <span
                   className={`${
                     card.percentage > 0 ? "text-success" : "text-danger"
                   } small pt-1 fw-bold`}>
-                  {card.percentage > 0
-                    ? card.percentage * 100
-                    : card.percentage * 100}{" "}
-                  %
+                  {Math.abs(card.percentage) * 100} %
                 </span>
                 <span className="text-muted small pt-2 ps-1">
                   {card.percentage > 0 ? "increase" : "decrease"}
