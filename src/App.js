@@ -12,6 +12,7 @@ import SideBar from "./components/sideBar/SideBar";
 import Main from "./components/main/Main";
 
 import "echarts";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <SideBar />
       <Main />
+      <Footer />
     </>
   );
 }

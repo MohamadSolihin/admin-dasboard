@@ -6,6 +6,8 @@ import RecentSales from "../recentSales/RecentSales";
 import TopSelling from "../topselling/TopSelling";
 import RecentActivity from "../recentActivity/RecentActivity";
 import BudgetReport from "../budgetReport/BudgetReport";
+import WebTraffic from "../webTraffic/WebTraffic";
+import News from "../news/News";
 
 function Dashboard() {
   const [cards, setCards] = useState([]);
@@ -47,11 +49,15 @@ function Dashboard() {
               <div className="col-12 mt-4">
                 <TopSelling />
               </div>
+              <div className="col-12 mt-4">
+                <News />
+              </div>
             </div>
           </div>
           <div className="col-lg-3">
             <RecentActivity />
             <BudgetReport />
+            <WebTraffic />
           </div>
         </div>
       </div>

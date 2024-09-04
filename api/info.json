@@ -28,35 +28,35 @@
   "news": [
     {
       "_id": 1,
-      "img": "",
+      "img": "/assets/items/news-1.jpg",
       "title": "nihil blanditiis at in nihil autem",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
     },
     {
       "_id": 2,
-      "img": "",
+      "img": "/assets/items/news-1.jpg",
       "title": "Quedim autem et imperdit",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
     },
     {
       "_id": 3,
-      "img": "",
+      "img": "/assets/items/news-1.jpg",
       "title": "Id quia et at ut maxime similique occaecati ut",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
     },
     {
       "_id": 4,
-      "img": "",
+      "img": "/assets/items/news-1.jpg",
       "title": "Laborum corporis quo dara net para",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
     },
     {
       "_id": 5,
-      "img": "",
+      "img": "/assets/items/news-1.jpg",
       "title": "Et dolores corruptiqu que illo quod dolor",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum fugit harum, laborum commodi officiis?",
       "category": "abc"
